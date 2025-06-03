@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+
+# Archivos de entorno
+.env
+.env.*
+
+# Archivos de configuración de IDEs/editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de logs y bases de datos
+*.log
+*.sqlite3
+instance/
+*.db
+
+# Archivos de despliegue/locales
+*.sock
+*.pid
+*.gz
+*.tgz
+
+# Pytest cache
+.pytest_cache/
+
+# mypy / pylint / coverage
+.mypy_cache/
+.pytype/
+.coverage
+htmlcov/
+
+# Docker
+*.tar
+docker-compose.override.yml
+
+# Gunicorn logs
+gunicorn.log
+
+# Archivos de salida de certbot o SSL manual
+certs/
+ssl/
